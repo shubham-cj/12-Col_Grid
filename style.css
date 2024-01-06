@@ -44,7 +44,9 @@ main img {
     border-radius: 4px;
 }
 main .welcome {
-    grid-column: 8/ span 5;
+    grid-column: span 6;
+    padding: 0 20px;
+    text-align: justify;
 }
 main h2 {
     grid-column: span 12;
@@ -69,7 +71,7 @@ footer p {
     }
     main .welcome {
         grid-column: 3/ span 8;
-        text-align: center;
+        padding: 0 0;
     }
     main .card {
         grid-column: 3/ span 8;
@@ -82,7 +84,6 @@ footer p {
     }
     main .welcome {
         grid-column: 2/ span 10;
-        text-align: center;
     }
     main .card {
         grid-column: 2/ span 10;
